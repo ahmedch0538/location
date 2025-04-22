@@ -1,0 +1,261 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+h1{
+    color: rgb(255, 255, 255);
+    margin-bottom:350px ;
+    
+}
+.container{
+    align-items: center;
+    display: flex;
+justify-content: space-between;
+background-color: #333;
+padding: 25px;
+
+}
+ul li{
+    display: inline;
+    margin-left: 25px;
+}
+.logo a{
+    text-decoration: none;
+
+}
+span{
+    color: aliceblue;
+}
+.logo a{
+    color: black
+}
+.navdiv a {
+    color: rgb(255, 255, 255);
+}
+.navdiv a:hover{
+    color: rgb(0, 0, 0);
+}
+.accueil{
+    background-image: url(photo.jpg);
+    height: 70vh;
+    background-size: cover;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    background-attachment: fixed;
+}
+.navbar button {
+background-color: rgb(0, 0, 0);
+
+}
+.navbar button a{
+    color: aliceblue;
+    text-decoration: none;
+
+}
+.container-second {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+  }
+  .voitures {
+    padding: 40px 0;
+    background-color: #414143;
+    border: 2px solid;
+  }
+  
+  .voitures h2 {
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 28px;
+  }
+  
+  .cars {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  
+  .car {
+    background-color: #fffffa;
+    border-radius: 5px;
+    padding: 20px;
+    width: 30%;
+    
+    text-align: center;
+    margin: 30px 25px;
+  }
+  
+  .car img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+  }
+  
+  .car h3 {
+    margin-top: 15px;
+    font-size: 20px;
+  }
+  
+  .car p {
+    margin: 20px 0;
+
+  }
+  
+  .car .btn {
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+  }
+  
+
+.services {
+    background-color:#333;
+    padding: 40px 0;
+  }
+  
+  .services .container-second {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+  }
+  
+  .service {
+    background-color: white;
+    padding: 20px;
+    width: 30%;
+    border-radius: 5px;
+  }
+  
+  .service h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  .car img{
+  width: 250px;
+  }
+ 
+ 
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.social-icons {
+  display: flex;
+  gap: 20px;
+}
+
+.icon {
+  color: #fff;
+  font-size: 30px;
+  text-decoration: none;
+}
+
+.icon:hover {
+  color:#333;
+}
+
+
+.whatsapp {
+  color: #25D366;
+}
+
+.facebook {
+  color: #3b5998;
+}
+
+.linkedin {
+  color: #0077b5;
+}
+
+.email {
+  color:blue;
+}
+
+/* Style de la carte */
+.map iframe {
+  border-radius: 10px;
+  max-width: 100%;
+  height: 300px;
+  margin-top: 20px;
+}
+.social-icons span{
+  color: aliceblue;
+
+}
+.social-icons span:hover{
+    color:#333;
+}
+.container-n3{
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+}
+.service{
+  border-radius: 20px;
+  color:#333;;
+  width: 350px;
+  height: 250px;
+}
+.services{
+  background-image: url(13644.jpg);
+  background-size: cover;
+  height: 50vh;
+  background-attachment: fixed;
+}
+.contact {
+  padding: 40px 0;
+  background-color: #fff;
+}
+
+.contact form {
+  width: 50%;
+  margin: 0 auto;
+}
+
+.contact input, .contact textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.contact button {
+  width: 100%;
+  padding: 10px;
+  background-color:blue;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.contact button:hover {
+  background-color: black;
+}
